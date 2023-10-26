@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Karyawan</title>
+    <style>
+        
+        
+        header{
+            background-color: rgb(95, 21, 21);
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+        article{
+            padding: 20px;
+            width: 100%;
+            background-color: aliceblue;
+        }
+        footer{
+            background-color: gray;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+        nav{
+            background-color: rgb(218, 15, 15);
+            padding: 10px;
+        }
+        nav{
+            list-style-type: none;
+            overflow: hidden;
+        }
+        nav li{
+            float: left;
+        }
+        nav li a {
+            display: block;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        nav li a:hover{
+            background-color: orange;
+        }
+        div{
+            background-color: brown;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body background="wel1.jpeg">
+    <header>
+        <h1>List Data Karyawan</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Beranda</a></li>
+            <li><a href="">Karyawan</a></li>
+            <li><a href="../bagian/bagian.html">Bagian</a></li>
+            <li><a href="">Penggajian</a></li>
+        </ul>
+    </nav>
+    <section>
+        <div>
+            <a href="tambah.html" style="background-color: aqua; color: black;">➕ <b>Tambah</b></a>
+        </div>
+        <div>
+            <table border="1px" style="width: 100%;"">
+                <thead>
+                    <tr>
+                        <th>no</th>
+                        <th>id</th>
+                        <th>nama</th>
+                        <th>tanggal mulai</th>
+                        <th>gaji pokok</th>
+                        <th>status karyawan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>001</td>
+                        <td>salman</td>
+                        <td>23</td>
+                        <td>005</td>
+                        <td>kontrak</td>
+                        <td >
+                            <a href="edit.html" style="background-color: rgb(73, 22, 155); color: rgb(255, 255, 255);"> <b>Edit</b></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <footer>
+            <p>Powered by GARMOND <time datetime="2023">2023</time></p>
+        </footer>
+    </section>
+</body>
+</html>
